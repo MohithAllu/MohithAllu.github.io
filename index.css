@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(236, 241, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#photo {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 30px;
+    display: inline-block;
+    position:static;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(to right, rgb(222, 236, 231), rgb(203, 224, 236));
+}
+
+th, td {
+    padding: 30px;
+    text-align: left;
+}
+
+button {
+    border-radius: 20%;
+    height: 100%;
+    background: rgb(239, 244, 242);
+    border-color: rgb(237, 240, 241);
+    border-bottom: rgb(141, 200, 235);
+    border-right: rgb(141, 200, 235);
+    font-size: 20px;
+}
+
+#subbutton {
+    border-radius: 20%;
+    height: 20px;
+    width: 20px;
+    background: rgb(226, 233, 230);
+    border-color: rgb(233, 243, 248);
+    border-bottom: rgb(231, 237, 240);
+    border-right: rgb(215, 228, 235);
+    font-size: 20px;
+}
+
+.skills {
+    width: 80%;
+    border-collapse: collapse;
+    background: linear-gradient(to right, rgb(243, 244, 243), rgb(223, 233, 239));
+    font-size: 18px;
+}
+
+#skillphoto {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#internphoto {
+    height: 300px;
+    width: 400px;
+}
+
+pre {
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+.about{
+    max-width:100%;
+    display: inline-block;
+    font-size: 20px;
+    position:static;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+
+}
+
+.grid-photo {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+}
+
