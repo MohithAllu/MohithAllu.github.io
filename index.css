@@ -8,7 +8,12 @@ body {
 
 header {
     background-color: #4CAF50;
+    top: 0;
     padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
 }
 
 .navbar {
@@ -48,7 +53,7 @@ footer {
     width: 100%;
 }
 
-#photo {
+.photo {
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -59,6 +64,7 @@ footer {
 
 table {
     width: 100%;
+    margin-top:100px;
     border-collapse: collapse;
     background: linear-gradient(to right, rgb(222, 236, 231), rgb(203, 224, 236));
 }
@@ -126,17 +132,110 @@ h3 {
     font-size: 20px;
     position:static;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 10px;
 
+
+    .card-photo {
+        background-color: rgb(236, 241, 240);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        padding: 20px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        width: 300px;
+      }
+      
+      .card-title {
+        margin: 10px 0 5px;
+      }
+      
+      .card-photo:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+      
+.card{
+    background-color: rgb(236, 241, 240);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        width:auto;
 }
 
-.grid-photo {
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
-    padding: 10px;
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
+.card-skill{
+    background-color: rgb(236, 241, 240);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        width:auto;
+        border: #333;
+        margin: 40px;
+        margin-left: 70px;
+        margin-top: 70px;
+}
+.card-skill img{
+    height: 100px;
+}
+
+.card-skill:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card-internship{
+    background-color: rgb(236, 241, 240);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        width:auto;
+        border: #333;
+        margin: 40px;
+        margin-left: 100px;
+        margin-top: 70px;
+}
+.card-internship img{
+    height: 300px;
+    width: 450px;
+}
+
+.card-internship:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card-education{
+    background-color: rgb(236, 241, 240);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 20px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        width:auto;
+        border: #333;
+        margin: 40px;
+        margin-left: 100px;
+        margin-top: 70px;
+}
+.card-education img{
+    height: 300px;
+    width: 450px;
+}
+
+.card-education:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 
