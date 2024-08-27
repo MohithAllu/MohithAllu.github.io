@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohith Allu Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            display: block;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            background-color: #333;
+        }
+
+        main {
+            margin-top: 80px;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(to right, #56ab2f, #a8e063);
+            color: white;
+        }
+
+        .hero img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            margin-top: 20px;
+            font-size: 2.5em;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .skills, .certifications, .internships, .education, .projects, .software {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#software">Software</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <img src="assets/mohith.jpg" alt="Mohith Allu">
+            <h1>Mohith Allu Portfolio</h1>
+            <p>I am Mohith, an aspiring Computer Science student</p>
+            <p>Contact: +91 9347228230 | Email: mohithallu90@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mohith-allu-360056258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">MohithAllu</a></p>
+            <p>Resume: <a href="https://www.canva.com/design/DAGLAdd_D4g/fRH21PmJyRphBxInTCIn6w/edit?utm_content=DAGLAdd_D4g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Click Here</a></p>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills">
+                <div class="card">
+                    <img src="assets/c.png" alt="C language">
+                    <h3>C language</h3>
+                    <p>Rating: 3/5</p>
+                </div>
+                <div class="card">
+                    <img src="assets/python.jpeg" alt="Python">
+                    <h3>Python</h3>
+                    <p>Rating: 4/5</p>
+                </div>
+                <div class="card">
+                    <img src="assets/java.png" alt="Java">
+                    <h3>Java</h3>
+                    <p>Rating: 2/5</p>
+                </div>
+                <div class="card">
+                    <img src="assets/sql.png" alt="SQL">
+                    <h3>SQL</h3>
+                    <p>Rating: 4/5</p>
+                </div>
+                <div class="card">
+                    <img src="assets/HTML.png" alt="HTML, CSS, JavaScript">
+                    <h3>HTML, CSS, JavaScript</h3>
+                    <p>Rating: 4/5</p>
+                </div>
+                <div class="card">
+                    <img src="assets/mean.jpeg" alt="MEAN Stack Development">
+                    <h3>MEAN Stack Development</h3>
+                    <p>Rating: 4/5</p>
+                </div>
+                <div class="card">
+                    <img src="assets/mern.png" alt="MERN Stack Development">
+                    <h3>MERN Stack Development</h3>
+                    <p>Rating: 3/5</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications">
+                <!-- Add certification cards here -->
+            </div>
+        </section>
+
+        <section id="internships">
+            <h2 class="section-title">Internships</h2>
+            <div class="internships">
+                               <div class="card">
+                    <img src="assets/internship1.jpg" alt="Internship">
+                    <h3>Software Development Intern</h3>
+                    <p>Company: XYZ Corp</p>
+                    <p>Duration: June 2023 - August 2023</p>
+                </div>
+                <div class="card">
+                    <img src="assets/internship2.jpg" alt="Internship">
+                    <h3>Web Development Intern</h3>
+                    <p>Company: ABC Solutions</p>
+                    <p>Duration: January 2023 - May 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education">
+                <div class="card">
+                    <img src="assets/university.jpg" alt="University">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <p>University: XYZ University</p>
+                    <p>Duration: 2020 - 2024</p>
+                    <p>GPA: 9.12/10</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects">
+                <div class="card">
+                    <img src="assets/project1.jpg" alt="Project 1">
+                    <h3>Project Management System</h3>
+                    <p>Description: Developed a full-stack project management application using MERN stack.</p>
+                </div>
+                
+        </section>
+
+        <section id="software">
+            <h2 class="section-title">Software Proficiency</h2>
+            <div class="software">
+                <div class="card">
+                    <img src="assets/vscode.png" alt="VS Code">
+                    <h3>Visual Studio Code</h3>
+                    <p>Proficiency: 4/5</p>
+                </div>
+  
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mohith Allu. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('.navbar a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
+
